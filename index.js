@@ -26,7 +26,7 @@ function initMap() {
         for (var i = 0; i < results.length; i++) {
           createMarker(results[i]);
         }
-        map.setCenter(results[0].geometry.location);
+        map.setCenter(results[0].geometry.location); 
       }
     });
   }
