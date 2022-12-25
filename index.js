@@ -36,7 +36,7 @@ function initMap() {
 
 function createMarker(location) {
     var marker = new google.maps.Marker({
-      position: location.gemetry.location.,
+      position: { lat: 11.3156992, lng: 124.88543660000005 },
       map: map,
     });
 }
