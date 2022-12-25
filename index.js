@@ -19,7 +19,7 @@ function initMap() {
       type:['restaurant'],
       radius: 20000
     };
-  const test;
+  var test;
     var service = new google.maps.places.PlacesService(map);
   
     service.nearbySearch(request, function(results, status) {
