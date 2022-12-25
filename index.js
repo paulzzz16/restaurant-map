@@ -36,9 +36,9 @@ function initMap() {
 
 function createMarker(location) {
     var marker = new google.maps.Marker({
-      position: { lat: 11.3156992, lng: 124.88543660000005 },
-      map: map,
+      position: { lat: 11.3156992, lng: 124.88543660000005 }
     });
+    marker.setMap(map);
 }
   
   window.initMap = initMap;
