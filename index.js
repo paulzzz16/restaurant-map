@@ -34,7 +34,7 @@ function initMap() {
     });
   }
 
-function createMarker(Object location) {
+function createMarker(location) {
     var marker = new google.maps.Marker({
       position: location.gemetry.location.,
       map: map,
