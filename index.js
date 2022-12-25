@@ -29,7 +29,7 @@ function initMap() {
           //console.log(results[i]);
             if (i == 0) {
                 var detailsRequest = {
-                    placeId: results[0].place_id;
+                    placeId: results[0].place_id
                 }
                 service.getDetails(detailsRequest, function(results, status) {
                     if (status === status == google.maps.places.PlacesServiceStatus.OK) {
