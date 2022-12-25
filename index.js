@@ -19,12 +19,13 @@ function initMap() {
       type:['restaurant'],
       radius: 20000
     };
-  
+  const test;
     var service = new google.maps.places.PlacesService(map);
   
     service.nearbySearch(request, function(results, status) {
       if (status === google.maps.places.PlacesServiceStatus.OK) {
         for (var i = 0; i < results.length; i++) {
+            test = results[0];
             console.log(results[i]);
           createMarker(results[i]);
         }
@@ -32,5 +33,12 @@ function initMap() {
       }
     });
   }
+
+function createMarker(Object location) {
+    var marker = new google.maps.Marker({
+      position: location.gemetry.location.,
+      map: map,
+    });
+}
   
   window.initMap = initMap;
