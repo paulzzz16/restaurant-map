@@ -31,7 +31,9 @@ function initMap() {
                 var detailsRequest = {
                     placeId: results[0].place_id
                 }
+                console.log('before get details call');
                 service.getDetails(detailsRequest, function(results, status) {
+                    console.log('get details callback');
                     if (status === status == google.maps.places.PlacesServiceStatus.OK) {
                         console.log(results);
                     }
