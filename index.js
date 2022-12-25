@@ -34,6 +34,7 @@ function initMap() {
                 service.getDetails(detailsRequest, function(results, status) {
                     if (status === status == google.maps.places.PlacesServiceStatus.OK) {
                         console.log(results);
+                    }
                 });
             }
           createMarker(results[i]);
