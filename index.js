@@ -16,7 +16,6 @@ function initMap() {
 
     var request = {
       query: 'restaurant',
-      fields: ['restaurant'],
     };
   
     var service = new google.maps.places.PlacesService(map);
