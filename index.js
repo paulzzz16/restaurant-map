@@ -16,7 +16,8 @@ function initMap() {
 
     var request = {
       location: cebu,
-      type:['restaurant']
+      type:['restaurant'],
+      radius: 20000
     };
   
     var service = new google.maps.places.PlacesService(map);
