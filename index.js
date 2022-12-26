@@ -12,7 +12,7 @@ function initMap() {
       center: cebu,
     });
     
-    map.data.loadGeoJson('stores.json', {idPropertyName: 'storeid'});
+    map.data.loadGeoJson('restaurants.json', {idPropertyName: 'storeid'});
     // The marker, positioned at cebu
     const marker = new google.maps.Marker({
       position: cebu,
