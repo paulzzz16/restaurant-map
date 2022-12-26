@@ -23,9 +23,9 @@ function initMap() {
     };
     var service = new google.maps.places.PlacesService(map);
   
-    service.nearbySearch(request, function(results, status) {
+    service.nearbySearch(request, function(results, status, next_page_token) {
       if (status === google.maps.places.PlacesServiceStatus.OK) {
-          console.log(results);
+          console.log(next_page_token);
         for (var i = 0; i < results.length; i++) {
           //console.log(results[i]);
 //             if (i == 0) {
