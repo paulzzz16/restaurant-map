@@ -115,6 +115,21 @@ console.log(map.data);
         infoWindow.setPosition(position);
         infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
         infoWindow.open(map);
+          
+          var currentLocationValue = document.getElementById('current-location').value;
+        if (currentLocationValue) {
+            
+            var request = {
+              origin: currentLocationValue,
+              destination: event.latLng,
+              travelMode: 'WALKING'
+            };
+            directionsService.route(request, function(result, status) {
+            if (status == 'OK') {
+              directionsRenderer.setDirections(result);
+            }
+            });
+        }
       });
   }
 
