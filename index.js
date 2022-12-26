@@ -19,7 +19,7 @@ function initMap() {
     var request = {
       location: cebu,
       type:['restaurant'],
-      radius: 20000
+      radius: 1000
     };
    
     callNearbySearch(request);
