@@ -111,9 +111,9 @@ function callNearbySearch(request) {
             
         }
         map.setCenter(results[0].geometry.location); 
-        while(next_page_token) {
-            callNearbySearch(request);
-        }
+//         while(next_page_token) {
+//             callNearbySearch(request);
+//         }
           
       }
     });
