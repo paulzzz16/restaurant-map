@@ -169,23 +169,23 @@ function createMarker(location) {
       position: location.geometry.location,
         map: map
     });
-    marker.addListener("click", (event) => {
-        console.log(event);
-        var currentLocationValue = document.getElementById('current-location').value;
-        if (currentLocationValue) {
+//     marker.addListener("click", (event) => {
+//         console.log(event);
+//         var currentLocationValue = document.getElementById('current-location').value;
+//         if (currentLocationValue) {
             
-            var request = {
-              origin: currentLocationValue,
-              destination: marker.position,
-              travelMode: 'WALKING'
-            };
-            directionsService.route(request, function(result, status) {
-            if (status == 'OK') {
-              directionsRenderer.setDirections(result);
-            }
-            });
-        }
-    });
+//             var request = {
+//               origin: currentLocationValue,
+//               destination: marker.position,
+//               travelMode: 'WALKING'
+//             };
+//             directionsService.route(request, function(result, status) {
+//             if (status == 'OK') {
+//               directionsRenderer.setDirections(result);
+//             }
+//             });
+//         }
+//     });
 }
   
   window.initMap = initMap;
