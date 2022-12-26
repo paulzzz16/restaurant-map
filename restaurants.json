@@ -23,7 +23,7 @@
                 "coordinates": [
                     10.3117963,
                     123.8862397
-				],
+				]
             },
             "type": "Feature",
             "properties": {
@@ -41,7 +41,7 @@
                 "coordinates": [
                     10.3144035,
                     123.8899078
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -59,7 +59,7 @@
                 "coordinates": [
                     10.3156992,
                     123.8854366
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -77,7 +77,7 @@
                 "coordinates": [
                     10.3156992,
                     123.8854366
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -95,7 +95,7 @@
                 "coordinates": [
                     10.3154751,
                     123.8851881
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -113,7 +113,7 @@
                 "coordinates": [
                     10.3160519,
                     123.885218
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -131,7 +131,7 @@
                 "coordinates": [
                     10.3152519,
                     123.884585
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -149,7 +149,7 @@
                 "coordinates": [
                     10.315235,
                     123.884563
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -167,7 +167,7 @@
                 "coordinates": [
                     10.315214,
                     123.884569
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -185,7 +185,7 @@
                 "coordinates": [
                     10.3164569,
                     123.8877868
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -203,7 +203,7 @@
                 "coordinates": [
                     10.3146083,
                     123.8826153
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -221,7 +221,7 @@
                 "coordinates": [
                     10.3171075,
                     123.8891672
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -239,7 +239,7 @@
                 "coordinates": [
                      10.314444,
                      123.8906829
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -257,7 +257,7 @@
                 "coordinates": [
                     10.3131703,
                     123.8906187
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -275,7 +275,7 @@
                 "coordinates": [
                      10.3124262,
                      123.8911582
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -292,8 +292,8 @@
                 "type": "Point",
                 "coordinates": [
                      10.315085,
-                     123.892509
-                ],
+                    123.892509
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -311,7 +311,7 @@
                 "coordinates": [
                      10.3169638,
                      123.8925684
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -329,7 +329,7 @@
                 "coordinates": [
                      10.3230981,
                      123.8840168
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
@@ -347,7 +347,7 @@
                 "coordinates": [
                      10.3148556,
                      123.8930848
-                ],
+                ]
             },
             "type": "Feature",
             "properties": {
