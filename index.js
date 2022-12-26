@@ -158,7 +158,8 @@ function createMarker(location) {
       position: location.geometry.location,
         map: map
     });
-    marker.addListener("click", () => {
+    marker.addListener("click", (event) => {
+        console.log(event);
         var currentLocationValue = document.getElementById('current-location').value;
         if (currentLocationValue) {
             
