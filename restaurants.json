@@ -2,7 +2,6 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "business_status": "OPERATIONAL",
             "geometry": {
                 "coordinates": [
                     10.3108396,123.89231
