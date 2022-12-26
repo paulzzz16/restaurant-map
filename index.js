@@ -126,7 +126,7 @@ function createMarker(location) {
         map: map
     });
     marker.addListener("click", () => {
-        console.log(searchBox);
+        console.log(searchBox.getBounds());
         console.log(marker);
       });
 }
