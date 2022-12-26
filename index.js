@@ -1,5 +1,6 @@
 // Initialize and add the map
 var map;
+var searchBox;
 function initMap() {
     // The location of Uluru
     const cebu = { lat: 10.3156992, lng: 123.88543660000005 };
@@ -26,7 +27,7 @@ function initMap() {
     
     //searchbox events
      const input = document.getElementById("current-location");
-  const searchBox = new google.maps.places.SearchBox(input);
+  searchBox = new google.maps.places.SearchBox(input);
 
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
   // Bias the SearchBox results towards current map's viewport.
