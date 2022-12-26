@@ -1,5 +1,565 @@
 {
     "type": "FeatureCollection",
     "features": [
-      ]
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3108396,
+                    "lng": 123.89231
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3121479802915,
+                        "lng": 123.8935370302915
+                    },
+                    "southwest": {
+                        "lat": 10.3094500197085,
+                        "lng": 123.8908390697085
+                    }
+                }
+            },
+			"type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "01"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3117963,
+                    "lng": 123.8862397
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3131427302915,
+                        "lng": 123.8875700802915
+                    },
+                    "southwest": {
+                        "lat": 10.3104447697085,
+                        "lng": 123.8848721197085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "02"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3144035,
+                    "lng": 123.8899078
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3157351802915,
+                        "lng": 123.8912033802915
+                    },
+                    "southwest": {
+                        "lat": 10.3130372197085,
+                        "lng": 123.8885054197085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "03"
+            }
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 10.3156992,
+                    "lng": 123.8854366
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3170526802915,
+                        "lng": 123.8868048302915
+                    },
+                    "southwest": {
+                        "lat": 10.3143547197085,
+                        "lng": 123.8841068697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "04"
+            }
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 10.3156992,
+                    "lng": 123.8854366
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3170526802915,
+                        "lng": 123.8868048302915
+                    },
+                    "southwest": {
+                        "lat": 10.3143547197085,
+                        "lng": 123.8841068697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "05"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3154751,
+                    "lng": 123.8851881
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3168904802915,
+                        "lng": 123.8865696302915
+                    },
+                    "southwest": {
+                        "lat": 10.3141925197085,
+                        "lng": 123.8838716697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "06"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3160519,
+                    "lng": 123.885218
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3174146302915,
+                        "lng": 123.8866354302915
+                    },
+                    "southwest": {
+                        "lat": 10.3147166697085,
+                        "lng": 123.8839374697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "07"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3152519,
+                    "lng": 123.884585
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3166162802915,
+                        "lng": 123.8858323802915
+                    },
+                    "southwest": {
+                        "lat": 10.3139183197085,
+                        "lng": 123.8831344197085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "08"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.315235,
+                    "lng": 123.884563
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3166051302915,
+                        "lng": 123.8858208302915
+                    },
+                    "southwest": {
+                        "lat": 10.3139071697085,
+                        "lng": 123.8831228697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "09"
+            }
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 10.315214,
+                    "lng": 123.884569
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3165946302915,
+                        "lng": 123.8858238302915
+                    },
+                    "southwest": {
+                        "lat": 10.3138966697085,
+                        "lng": 123.8831258697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "10"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3164569,
+                    "lng": 123.8877868
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3178611302915,
+                        "lng": 123.8891189302915
+                    },
+                    "southwest": {
+                        "lat": 10.3151631697085,
+                        "lng": 123.8864209697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "11"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3146083,
+                    "lng": 123.8826153
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3160046802915,
+                        "lng": 123.8839508302915
+                    },
+                    "southwest": {
+                        "lat": 10.3133067197085,
+                        "lng": 123.8812528697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "12"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3171075,
+                    "lng": 123.8891672
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3184065302915,
+                        "lng": 123.8905292302915
+                    },
+                    "southwest": {
+                        "lat": 10.3157085697085,
+                        "lng": 123.8878312697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "13"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.314444,
+                    "lng": 123.8906829
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3158129802915,
+                        "lng": 123.8920702802915
+                    },
+                    "southwest": {
+                        "lat": 10.3131150197085,
+                        "lng": 123.8893723197085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "14"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3131703,
+                    "lng": 123.8906187
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3145351302915,
+                        "lng": 123.8920117302915
+                    },
+                    "southwest": {
+                        "lat": 10.3118371697085,
+                        "lng": 123.8893137697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "15"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3124262,
+                    "lng": 123.8911582
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3138828302915,
+                        "lng": 123.8924820802915
+                    },
+                    "southwest": {
+                        "lat": 10.3111848697085,
+                        "lng": 123.8897841197085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "16"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.315085,
+                    "lng": 123.892509
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3164880802915,
+                        "lng": 123.8938393302915
+                    },
+                    "southwest": {
+                        "lat": 10.3137901197085,
+                        "lng": 123.8911413697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "17"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3169638,
+                    "lng": 123.8925684
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3182468302915,
+                        "lng": 123.8939408802915
+                    },
+                    "southwest": {
+                        "lat": 10.3155488697085,
+                        "lng": 123.8912429197085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "18"
+            }
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 10.3230981,
+                    "lng": 123.8840168
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3243751302915,
+                        "lng": 123.8853841302915
+                    },
+                    "southwest": {
+                        "lat": 10.3216771697085,
+                        "lng": 123.8826861697085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "19"
+            }
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 10.3148556,
+                    "lng": 123.8930848
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 10.3157675802915,
+                        "lng": 123.8946045802915
+                    },
+                    "southwest": {
+                        "lat": 10.3130696197085,
+                        "lng": 123.8919066197085
+                    }
+                }
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Patisserie Mayfair",
+                "phone": "+44 20 1234 5678",
+                "storeid": "20"
+            }
+        }
+    ],
 }
