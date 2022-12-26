@@ -18,6 +18,7 @@ function initMap() {
     });
     directionsService = new google.maps.DirectionsService();
     directionsRenderer = new google.maps.DirectionsRenderer();
+    directionsRenderer.setMap(map);
 
 
     // mark only places of type restaurant
