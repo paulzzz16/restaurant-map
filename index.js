@@ -131,18 +131,20 @@ function createMarker(location) {
         map: map
     });
     marker.addListener("click", () => {
-        console.log(searchBox.getBounds());
-        console.log(marker);
-        var request = {
-          origin: document.getElementById('current-location').value,
-          destination: marker.position,
-          travelMode: 'WALKING'
-        };
-        directionsService.route(request, function(result, status) {
-        if (status == 'OK') {
-          directionsRenderer.setDirections(result);
+        var currentLocationValue = document.getElementById('current-location').value;
+        if (currentLocationValue) {
+            
+            var request = {
+              origin: currentLocationValue,
+              destination: marker.position,
+              travelMode: 'WALKING'
+            };
+            directionsService.route(request, function(result, status) {
+            if (status == 'OK') {
+              directionsRenderer.setDirections(result);
+            }
+            });
         }
-        });
     });
 }
   
