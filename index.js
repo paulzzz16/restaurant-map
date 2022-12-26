@@ -123,7 +123,9 @@ function createMarker(location) {
       position: location.geometry.location,
         map: map
     });
-    //marker.setMap(map);
+    marker.addListener("click", () => {
+        console.log(marker);
+      });
 }
   
   window.initMap = initMap;
