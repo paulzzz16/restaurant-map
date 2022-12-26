@@ -25,19 +25,22 @@ function initMap() {
   
     service.nearbySearch(request, function(results, status) {
       if (status === google.maps.places.PlacesServiceStatus.OK) {
+          console.log(results);
         for (var i = 0; i < results.length; i++) {
           //console.log(results[i]);
-            if (i == 0) {
-                var detailsRequest = {
-                    placeId: results[0].place_id
-                }
-                service.getDetails(detailsRequest, function(results, status) {
-                    if (status ===  google.maps.places.PlacesServiceStatus.OK) {
-                        console.log(results);
-                    }
-                });
-            }
+//             if (i == 0) {
+//                 var detailsRequest = {
+//                     placeId: results[0].place_id
+//                 }
+//                 service.getDetails(detailsRequest, function(results, status) {
+//                     if (status ===  google.maps.places.PlacesServiceStatus.OK) {
+//                         console.log(results);
+//                     }
+//                 });
+//             }
+          
           createMarker(results[i]);
+            
         }
         map.setCenter(results[0].geometry.location); 
       }
