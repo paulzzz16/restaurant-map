@@ -1,8 +1,10 @@
 // Initialize and add the map
 var map;
 var searchBox;
+var directionsService;
+var directionsRenderer;
 function initMap() {
-    // The location of Uluru
+    // The location of Cebu
     const cebu = { lat: 10.3156992, lng: 123.88543660000005 };
     // The map, centered at Uluru
     map = new google.maps.Map(document.getElementById("map"), {
@@ -14,6 +16,8 @@ function initMap() {
       position: cebu,
       map: map,
     });
+    directionsService = new google.maps.DirectionsService();
+    directionsRenderer = new google.maps.DirectionsRenderer();
 
 
     // mark only places of type restaurant
@@ -128,7 +132,17 @@ function createMarker(location) {
     marker.addListener("click", () => {
         console.log(searchBox.getBounds());
         console.log(marker);
-      });
+        var request = {
+          origin: document.getElementById('current-location').value,
+          destination: marker.position,
+          travelMode: 'WALKING'
+        };
+        directionsService.route(request, function(result, status) {
+        if (status == 'OK') {
+          directionsRenderer.setDirections(result);
+        }
+        });
+    });
 }
   
   window.initMap = initMap;
