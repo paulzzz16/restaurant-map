@@ -11,6 +11,8 @@ function initMap() {
       zoom: 15,
       center: cebu,
     });
+    
+    map.data.loadGeoJson('stores.json', {idPropertyName: 'storeid'});
     // The marker, positioned at cebu
     const marker = new google.maps.Marker({
       position: cebu,
