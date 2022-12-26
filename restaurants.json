@@ -18,25 +18,6 @@
                 "phone": "+44 20 1234 5678",
                 "storeid": "01"
             }
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "coordinates": [
-                    10.3117963,
-                    123.8862397
-				],
-				"type": "Point"
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "patisserie",
-                "hours": "10am - 6pm",
-                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Mayfair",
-                "phone": "+44 20 1234 5678",
-                "storeid": "02"
-            }
         }
     ],
 }
