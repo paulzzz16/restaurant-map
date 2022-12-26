@@ -124,6 +124,7 @@ function createMarker(location) {
         map: map
     });
     marker.addListener("click", () => {
+        console.log(document.getElementById('current-location'));
         console.log(marker);
       });
 }
