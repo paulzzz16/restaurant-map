@@ -22,7 +22,7 @@ function initMap() {
       radius: 20000
     };
    
-    callNearbySearch();
+    callNearbySearch(request);
     
     //searchbox events
      const input = document.getElementById("current-location");
@@ -88,7 +88,7 @@ function initMap() {
   });
   }
 
-function callNearbySearch() {
+function callNearbySearch(request) {
      var service = new google.maps.places.PlacesService(map);
   
     service.nearbySearch(request, function(results, status, next_page_token) {
@@ -112,7 +112,7 @@ function callNearbySearch() {
         }
         map.setCenter(results[0].geometry.location); 
         while(next_page_token) {
-            callNearbySearch();
+            callNearbySearch(request);
         }
           
       }
