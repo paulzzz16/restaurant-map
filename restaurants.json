@@ -4,20 +4,10 @@
         {
             "business_status": "OPERATIONAL",
             "geometry": {
-                "location": {
-                    "lat": 10.3108396,
-                    "lng": 123.89231
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 10.3121479802915,
-                        "lng": 123.8935370302915
-                    },
-                    "southwest": {
-                        "lat": 10.3094500197085,
-                        "lng": 123.8908390697085
-                    }
-                }
+                "coordinates": [
+                    10.3108396, 123.89231
+                ],
+		"type": "Point"
             },
 			"type": "Feature",
             "properties": {
