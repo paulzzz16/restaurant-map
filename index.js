@@ -21,30 +21,8 @@ function initMap() {
       type:['restaurant'],
       radius: 20000
     };
-    var service = new google.maps.places.PlacesService(map);
-  
-    service.nearbySearch(request, function(results, status, next_page_token) {
-      if (status === google.maps.places.PlacesServiceStatus.OK) {
-          console.log(next_page_token);
-        for (var i = 0; i < results.length; i++) {
-          //console.log(results[i]);
-//             if (i == 0) {
-//                 var detailsRequest = {
-//                     placeId: results[0].place_id
-//                 }
-//                 service.getDetails(detailsRequest, function(results, status) {
-//                     if (status ===  google.maps.places.PlacesServiceStatus.OK) {
-//                         console.log(results);
-//                     }
-//                 });
-//             }
-          
-          createMarker(results[i]);
-            
-        }
-        map.setCenter(results[0].geometry.location); 
-      }
-    });
+   
+    callNearbySearch();
     
     //searchbox events
      const input = document.getElementById("current-location");
@@ -110,6 +88,36 @@ function initMap() {
   });
   }
 
+function callNearbySearch() {
+     var service = new google.maps.places.PlacesService(map);
+  
+    service.nearbySearch(request, function(results, status, next_page_token) {
+      if (status === google.maps.places.PlacesServiceStatus.OK) {
+          console.log(next_page_token);
+        for (var i = 0; i < results.length; i++) {
+          //console.log(results[i]);
+//             if (i == 0) {
+//                 var detailsRequest = {
+//                     placeId: results[0].place_id
+//                 }
+//                 service.getDetails(detailsRequest, function(results, status) {
+//                     if (status ===  google.maps.places.PlacesServiceStatus.OK) {
+//                         console.log(results);
+//                     }
+//                 });
+//             }
+          
+          createMarker(results[i]);
+            
+        }
+        map.setCenter(results[0].geometry.location); 
+        while(next_page_token) {
+            callNearbySearch();
+        }
+          
+      }
+    });
+}
 function createMarker(location) {
     var marker = new google.maps.Marker({
       position: location.geometry.location,
