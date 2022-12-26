@@ -96,7 +96,7 @@ function initMap() {
   });
     
     const infoWindow = new google.maps.InfoWindow();
-
+console.log(map.data);
       // Show the information for a store when its marker is clicked.
       map.data.addListener('click', (event) => {
           console.log('map data click event');
