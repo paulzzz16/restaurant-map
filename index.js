@@ -152,7 +152,7 @@ function callNearbySearch(request) {
 //                 });
 //             }
           
-          createMarker(results[i]);
+         // createMarker(results[i]);
             
         }
         map.setCenter(results[0].geometry.location); 
