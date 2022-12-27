@@ -263,7 +263,7 @@
             "properties": {
                 "category": "fast food",
                 "hours": "8am - 9:30pm",
-                "description": "N/A",
+                "user_ratings_total": "N/A",
                 "name": "Andy's Crunchicken",
                 "specialty": "Chicken",
                 "storeid": "15"
