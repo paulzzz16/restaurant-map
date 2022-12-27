@@ -171,7 +171,7 @@ function createMarker(location) {
     });
     marker.addListener("click", (event) => {
         console.log(event);
-        console.log(map.data);
+        console.log(map.data.h.195.h.h);
         var currentLocationValue = document.getElementById('current-location').value;
         if (currentLocationValue) {
             
