@@ -96,10 +96,8 @@ function initMap() {
   });
     
     const infoWindow = new google.maps.InfoWindow();
-console.log(map.data);
       // Show the information for a store when its marker is clicked.
       map.data.addListener('click', (event) => {
-          console.log('map data click event');
         const category = event.feature.getProperty('category');
         const name = event.feature.getProperty('name');
         const ratings = event.feature.getProperty('user_ratings_total');
@@ -107,7 +105,7 @@ console.log(map.data);
         const specialty = event.feature.getProperty('specialty');
         const position = event.feature.getGeometry().get();
         const content = `
-      <h2>${name}</h2><p>${ratings}</p>
+      <h2>${name}</h2><p><b>Reviews: </b>${ratings}</p>
       <p><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p>
     `;
 
