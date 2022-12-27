@@ -9,11 +9,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "patisserie",
+                "category": "restaurant",
                 "hours": "10am - 6pm",
-                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Mayfair",
-                "phone": "+44 20 1234 5678",
+                "user_ratings_total": "208",
+                "name": "M Citi Suites",
+		"specialty": "Sirloin Steak",
                 "storeid": "01"
             }
         },
@@ -27,11 +27,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "patisserie",
+                "category": "restaurant",
                 "hours": "10am - 6pm",
-                "description": "Come and try our award-winning cakes and pastries. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Bristol",
-                "phone": "+44 117 121 2121",
+                "user_ratings_total": "N/A",
+                "name": "Pixie's Sinugba - V.Rama Cebu",
+		"specialty": "Sinugba",
                 "storeid": "02"
             }
         },
@@ -45,11 +45,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "patisserie",
+                "category": "japanese restaurant",
                 "hours": "10am - 6pm",
-                "description": "Whatever the occasion, whether it's a birthday or a wedding, Josie's Patisserie has the perfect treat for you. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Norwich",
-                "phone": "+44 1603 123456",
+               "name": "Han-nya Japanese Restaurant",
+                "user_ratings_total": "N/A",
+		"specialty": "Sushi",
                 "storeid": "03"
             }
         },
@@ -65,9 +65,9 @@
             "properties": {
                 "category": "patisserie",
                 "hours": "10am - 6pm",
-                "description": "A gourmet patisserie that will delight your senses. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Wimborne",
-                "phone": "+44 1202 343434",
+                "user_ratings_total": "N/A",
+                "name": "Rosita's ( Food) Inc",
+                "specialty": "Palabok",
                 "storeid": "04"
             }
         },
@@ -83,9 +83,9 @@
             "properties": {
                 "category": "patisserie",
                 "hours": "10am - 6pm",
-                "description": "Spoil yourself or someone special with our classic pastries. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Liverpool",
-                "phone": "+44 151 444 4444",
+                "user_ratings_total": "N/A",
+                "name": "San Vic Traders Inc",
+                "specialty": "N/A",
                 "storeid": "05"
             }
         },
@@ -101,9 +101,9 @@
             "properties": {
                 "category": "patisserie",
                 "hours": "10am - 6pm",
-                "description": "Come and feast your eyes and tastebuds on our delicious pastries and cakes. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Tamworth",
-                "phone": "+44 5555 55555",
+                "user_ratings_total": "981",
+                "name": "Jollibee - Cebu Guadalupe",
+                "specialty": "Chicken",
                 "storeid": "06"
             }
         },
@@ -117,11 +117,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "patisserie",
+                "category": "fast food",
                 "hours": "10am - 6pm",
-                "description": "Josie's Patisserie is family-owned, and our delectable pastries, cakes, and great coffee are renowed. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Cardiff",
-                "phone": "+44 29 6666 6666",
+                "user_ratings_total": "28",
+                "name": "Chilen Chicharon",
+                "specialty": "Chicharon",
                 "storeid": "07"
             }
         },
@@ -135,11 +135,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "fast food",
                 "hours": "8am - 9:30pm",
-                "description": "Oakham's favorite spot for fresh coffee and delicious cakes. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Oakham",
-                "phone": "+44 7777 777777",
+                "user_ratings_total": "2",
+                "name": "Potato Corner",
+                "specialty": "flavored fries",
                 "storeid": "08"
             }
         },
@@ -153,11 +153,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "fast food",
                 "hours": "8am - 9:30pm",
-                "description": "Enjoy freshly brewed coffe, and home baked cakes in our homely cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Blackburn",
-                "phone": "+44 8888 88888",
+                "user_ratings_total": "N/A",
+                "name": "Master Siomai",
+                "specialty": "siomai",
                 "storeid": "09"
             }
         },
@@ -171,11 +171,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "fast food",
                 "hours": "8am - 9:30pm",
-                "description": "A delicious array of pastries with many flavours, and fresh coffee in an snug cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Crawley",
-                "phone": "+44 1010 101010",
+                "user_ratings_total": "5",
+                "name": "Cebu's Original Lechon Belly",
+                "specialty": "Lechon Belly",
                 "storeid": "10"
             }
         },
@@ -189,11 +189,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "fast food",
                 "hours": "8am - 9:30pm",
-                "description": "Grab a freshly brewed coffee, a decadent cake and relax in our idyllic cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Brighton",
-                "phone": "+44 1313 131313",
+                "user_ratings_total": "4",
+                "name": "Mr. Liempo",
+                "specialty": "liempo",
                 "storeid": "11"
             }
         },
@@ -207,11 +207,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "fast food",
                 "hours": "8am - 9:30pm",
-                "description": "Come in and unwind at this idyllic cafe with fresh coffee and home made cakes. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Newtown",
-                "phone": "+44 1414 141414",
+                "user_ratings_total": "14",
+                "name": "Tiktilaok",
+                "specialty": "Roasted Chicken",
                 "storeid": "12"
             }
         },
@@ -225,11 +225,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "restaurant",
                 "hours": "8am - 9:30pm",
-                "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Ipswich",
-                "phone": "+44 1717 17171",
+                "user_ratings_total": "33",
+                "name": "Mommy Auring's Lechon Cebu",
+                "specialty": "Lechon",
                 "storeid": "13"
             }
         },
@@ -245,9 +245,9 @@
             "properties": {
                 "category": "cafe",
                 "hours": "8am - 9:30pm",
-                "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Ipswich",
-                "phone": "+44 1717 17171",
+                "user_ratings_total": "198",
+                "name": "Cardinal Coffea",
+                "specialty": "Coffee",
                 "storeid": "14"
             }
         },
@@ -261,11 +261,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "fast food",
                 "hours": "8am - 9:30pm",
-                "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Ipswich",
-                "phone": "+44 1717 17171",
+                "description": "N/A",
+                "name": "Andy's Crunchicken",
+                "specialty": "Chicken",
                 "storeid": "15"
             }
         },
@@ -279,11 +279,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "restaurant",
                 "hours": "8am - 9:30pm",
-                "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Ipswich",
-                "phone": "+44 1717 17171",
+                "user_ratings_total": "634",
+                "name": "Ned Nanay's Grill",
+                "specialty": "Lechon",
                 "storeid": "16"
             }
         },
@@ -297,11 +297,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "fast food",
                 "hours": "8am - 9:30pm",
-                "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Ipswich",
-                "phone": "+44 1717 17171",
+                "user_ratings_total": "15",
+                "name": "Baby Nicnic's Kan-Anan",
+                "specialty": "N/A",
                 "storeid": "17"
             }
         },
@@ -317,9 +317,9 @@
             "properties": {
                 "category": "cafe",
                 "hours": "8am - 9:30pm",
-                "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Ipswich",
-                "phone": "+44 1717 17171",
+                "user_ratings_total": "360",
+                "name": "Cafe Talk Library",
+                "specialty": "Coffee and Cakes",
                 "storeid": "18"
             }
         },
@@ -335,9 +335,9 @@
             "properties": {
                 "category": "cafe",
                 "hours": "8am - 9:30pm",
-                "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Ipswich",
-                "phone": "+44 1717 17171",
+                "user_ratings_total": "N/A",
+                "name": "Native Chicken Guadalupe",
+                "specialty": "Chicken",
                 "storeid": "19"
             }
         },
@@ -351,11 +351,11 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "cafe",
+                "category": "restaurant",
                 "hours": "8am - 9:30pm",
-                "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Cafe Ipswich",
-                "phone": "+44 1717 17171",
+                "user_ratings_total": "505",
+                "name": "Uncle Tom's Cabin Hotel",
+                "specialty": "Salmon",
                 "storeid": "20"
             }
         }
