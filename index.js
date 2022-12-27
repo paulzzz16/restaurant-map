@@ -102,13 +102,13 @@ console.log(map.data);
           console.log('map data click event');
         const category = event.feature.getProperty('category');
         const name = event.feature.getProperty('name');
-        const description = event.feature.getProperty('description');
+        const ratings = event.feature.getProperty('user_ratings_total');
         const hours = event.feature.getProperty('hours');
-        const phone = event.feature.getProperty('phone');
+        const specialty = event.feature.getProperty('specialty');
         const position = event.feature.getGeometry().get();
         const content = `
-      <h2>${name}</h2><p>${description}</p>
-      <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
+      <h2>${name}</h2><p>${ratings}</p>
+      <p><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p>
     `;
 
         infoWindow.setContent(content);
