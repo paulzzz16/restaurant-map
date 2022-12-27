@@ -59,7 +59,7 @@ function initMap() {
     });
     markers = [];
 
-    // For each place, get the icon, name and location.
+   
     const bounds = new google.maps.LatLngBounds();
 
     places.forEach((place) => {
@@ -95,6 +95,7 @@ function initMap() {
     map.fitBounds(bounds);
   });
     
+    //show restaurant details when restaurant marker is clicked.
     const infoWindow = new google.maps.InfoWindow();
       // Show the information for a store when its marker is clicked.
       map.data.addListener('click', (event) => {
