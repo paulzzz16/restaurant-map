@@ -193,5 +193,6 @@ function createMarker(location) {
 }
   
 $("#filter-panel").click(function() {
+    console.log("filter-panel clicked");
 });
   window.initMap = initMap;
