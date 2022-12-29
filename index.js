@@ -19,20 +19,19 @@ function initMap() {
         position: google.maps.ControlPosition.TOP_RIGHT
       },
     });
-    
-    
+
+
     //initialize all layer geojson
     cafeLayer = new google.maps.Data();
     fastFoodLayer = new google.maps.Data();
     restaurantLayer = new google.maps.Data();
-   // map.data.loadGeoJson('restaurants.json', {idPropertyName: 'storeid'});
-   cafeLayer.loadGeoJson('cafe.json');
+    cafeLayer.loadGeoJson('cafe.json');
     restaurantLayer.loadGeoJson('restaurants.json');
     fastFoodLayer.loadGeoJson('fastfood.json');
     cafeLayer.setMap(map);
     restaurantLayer.setMap(map);
     fastFoodLayer.setMap(map);
-   
+
     directionsService = new google.maps.DirectionsService();
     directionsRenderer = new google.maps.DirectionsRenderer();
     directionsRenderer.setMap(map);
@@ -44,10 +43,10 @@ function initMap() {
       type:['restaurant'],
       radius: 1000
     };
-   
+
     callNearbySearch(request);
-    
-    //searchbox events
+
+//searchbox events
   const input = document.getElementById("current-location");
   const filterPanel = document.getElementById("filter-panel");
   searchBox = new google.maps.places.SearchBox(input);
@@ -181,9 +180,9 @@ const clickEvent = ((event) => {
   const specialty = event.feature.getProperty('specialty');
   const position = event.feature.getGeometry().get();
   const content = `
-<h5>${name}</h5>
-<p><b>Reviews: </b>${ratings}<br/><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p><br/>
-<b>Category:</b> ${category}
+    <h5>${name}</h5>
+    <p><b>Reviews: </b>${ratings}<br/><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}<br/>
+    <b>Category:</b> ${category}</p>
 `;
   infoWindow.setContent(content);
   infoWindow.setPosition(position);
@@ -205,6 +204,7 @@ const clickEvent = ((event) => {
       });
   }
 });
+
  $('#restaurant-button').on("click", function(event) {
      if ($('#restaurant-button').is('.active')) {
          restaurantLayer.setMap(null);
@@ -212,6 +212,7 @@ const clickEvent = ((event) => {
          restaurantLayer.setMap(map);
      }
  });
+
  $('#cafe-button').on("click", function(event) {
     if ($('#cafe-button').is('.active')) {
          cafeLayer.setMap(null);
@@ -219,6 +220,7 @@ const clickEvent = ((event) => {
          cafeLayer.setMap(map);
      }
  });
+
  $('#fast-food-button').on("click", function(event) {
     if ($('#fast-food-button').is('.active')) {
          fastFoodLayer.setMap(null);
@@ -226,4 +228,5 @@ const clickEvent = ((event) => {
          fastFoodLayer.setMap(map);
      }
  });
+
   window.initMap = initMap;
