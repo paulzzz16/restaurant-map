@@ -210,12 +210,24 @@ const clickEvent = ((event) => {
   }
 });
  $('#restaurant-button').on("click", function(event) {
-    console.log(event);
+     if ($('#restaurant-button').is('.active')) {
+         restaurantLayer.setMap(map);
+     } else {
+         restaurantLayer.setMap(null);
+     }
  });
  $('#cafe-button').on("click", function(event) {
-    console.log(event);
+    if ($('#cafe-button').is('.active')) {
+         cafeLayer.setMap(map);
+     } else {
+         cafeLayer.setMap(null);
+     }
  });
  $('#fast-food-button').on("click", function(event) {
-    console.log(event);
+    if ($('#fast-food-button').is('.active')) {
+         fastFoodLayer.setMap(map);
+     } else {
+         fastFoodLayer.setMap(null);
+     }
  });
   window.initMap = initMap;
