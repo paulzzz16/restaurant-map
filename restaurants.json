@@ -45,7 +45,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "japanese restaurant",
+                "category": "restaurant",
                 "hours": "10am - 6pm",
                "name": "Han-nya Japanese Restaurant",
                 "user_ratings_total": "N/A",
@@ -81,7 +81,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "patisserie",
+                "category": "cafe",
                 "hours": "10am - 6pm",
                 "user_ratings_total": "N/A",
                 "name": "San Vic Traders Inc",
@@ -99,7 +99,7 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "patisserie",
+                "category": "fast food",
                 "hours": "10am - 6pm",
                 "user_ratings_total": "981",
                 "name": "Jollibee - Cebu Guadalupe",
