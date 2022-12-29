@@ -9,9 +9,9 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-   <div id="filter-panel container">
+<!--    <div id="filter-panel container">
      <input id="current-location" type="text" placeholder="Please input location..."/>
-<!--      <div class="row " id="test">
+     <div class="row " id="test">
        <div class="col-12">
        <div class="col-4">
          <button type="button" class="btn btn-primary col-sm-3" data-toggle="button" aria-pressed="false" autocomplete="off">Restaurant</button>
@@ -23,8 +23,20 @@
          <button type="button" class="btn btn-primary col-sm-3" data-toggle="button" aria-pressed="false" autocomplete="off">Fast Food</button>
        </div>
        </div>
-     </div> -->
-     <div class="row">
+     </div>
+     
+    </div>
+    <!--The div element for the map -->
+    <div id="map">
+      
+    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqn5EaQUSmtP-6Gin1XS92VPYeU01XoNw&callback=initMap&v=weekly&libraries=places"
+      defer
+    ></script> -->
+    
+    
+    <div class="row">
     <div class="col-xs-12">
       <div class="col-xs-3">
         <a class="btn btn-default" id="lnkBtnSave" onclick=" GetSaveData(); ">Save</a>
@@ -40,15 +52,5 @@
       </div>
     </div>
 </div>
-     
-    </div>
-    <!--The div element for the map -->
-    <div id="map">
-      
-    </div>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqn5EaQUSmtP-6Gin1XS92VPYeU01XoNw&callback=initMap&v=weekly&libraries=places"
-      defer
-    ></script>
   </body>
 </html>
