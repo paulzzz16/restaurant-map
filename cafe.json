@@ -1,0 +1,95 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+	{
+		"geometry": {
+			"type": "Point",
+			"coordinates": [123.8854366,
+				10.3156992
+				
+			]
+		},
+		"type": "Feature",
+		"properties": {
+			"category": "Cafe",
+			"hours": "10am - 6pm",
+			"user_ratings_total": "N/A",
+			"name": "Rosita's ( Food) Inc",
+			"specialty": "Palabok",
+			"storeid": "04"
+		}
+	},
+	{
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ 123.8854366,
+				10.3156992
+			   
+			]
+		},
+		"type": "Feature",
+		"properties": {
+			"category": "cafe",
+			"hours": "10am - 6pm",
+			"user_ratings_total": "N/A",
+			"name": "San Vic Traders Inc",
+			"specialty": "N/A",
+			"storeid": "05"
+		}
+	},
+	{
+		"geometry": {
+			"type": "Point",
+			"coordinates": [123.8906829,
+				 10.314444
+				 
+			]
+		},
+		"type": "Feature",
+		"properties": {
+			"category": "cafe",
+			"hours": "8am - 9:30pm",
+			"user_ratings_total": "198",
+			"name": "Cardinal Coffea",
+			"specialty": "Coffee",
+			"storeid": "14"
+		}
+	},
+	{
+		"geometry": {
+			"type": "Point",
+			"coordinates": [123.8925684,
+				 10.3169638
+				 
+			]
+		},
+		"type": "Feature",
+		"properties": {
+			"category": "cafe",
+			"hours": "8am - 9:30pm",
+			"user_ratings_total": "360",
+			"name": "Cafe Talk Library",
+			"specialty": "Coffee and Cakes",
+			"storeid": "18"
+		}
+	},
+	{
+		"geometry": {
+			"type": "Point",
+			"coordinates": [123.8840168,
+				 10.3230981
+				 
+			]
+		},
+		"type": "Feature",
+		"properties": {
+			"category": "cafe",
+			"hours": "8am - 9:30pm",
+			"user_ratings_total": "N/A",
+			"name": "Native Chicken Guadalupe",
+			"specialty": "Chicken",
+			"storeid": "19"
+		}
+	},
+    ]
+}
