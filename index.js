@@ -37,10 +37,11 @@ function initMap() {
     callNearbySearch(request);
     
     //searchbox events
-     const input = document.getElementById("current-location");
+  const input = document.getElementById("current-location");
+  const filterPanel = document.getElementById("filter-panel");
   searchBox = new google.maps.places.SearchBox(input);
 
-  map.controls[google.maps.ControlPosition.TOP_LEFT];
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(filterPanel);
   // Bias the SearchBox results towards current map's viewport.
   map.addListener("bounds_changed", () => {
     searchBox.setBounds(map.getBounds());
