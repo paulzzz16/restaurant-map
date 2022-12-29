@@ -53,134 +53,6 @@
                 "storeid": "03"
             }
         },
-        
-        
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [123.8851881,
-                    10.3154751
-                    
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "fast food",
-                "hours": "10am - 6pm",
-                "user_ratings_total": "981",
-                "name": "Jollibee - Cebu Guadalupe",
-                "specialty": "Chicken",
-                "storeid": "06"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [123.885218,
-                    10.3160519
-                    
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "fast food",
-                "hours": "10am - 6pm",
-                "user_ratings_total": "28",
-                "name": "Chilen Chicharon",
-                "specialty": "Chicharon",
-                "storeid": "07"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [123.884585,
-                    10.3152519
-                    
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "fast food",
-                "hours": "8am - 9:30pm",
-                "user_ratings_total": "2",
-                "name": "Potato Corner",
-                "specialty": "flavored fries",
-                "storeid": "08"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [123.884563,
-                    10.315235
-                    
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "fast food",
-                "hours": "8am - 9:30pm",
-                "user_ratings_total": "N/A",
-                "name": "Master Siomai",
-                "specialty": "siomai",
-                "storeid": "09"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [123.884569,
-                    10.315214
-                    
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "fast food",
-                "hours": "8am - 9:30pm",
-                "user_ratings_total": "5",
-                "name": "Cebu's Original Lechon Belly",
-                "specialty": "Lechon Belly",
-                "storeid": "10"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [123.8877868,
-                    10.3164569
-                    
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "fast food",
-                "hours": "8am - 9:30pm",
-                "user_ratings_total": "4",
-                "name": "Mr. Liempo",
-                "specialty": "liempo",
-                "storeid": "11"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [123.8826153,
-                    10.3146083
-                    
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "fast food",
-                "hours": "8am - 9:30pm",
-                "user_ratings_total": "14",
-                "name": "Tiktilaok",
-                "specialty": "Roasted Chicken",
-                "storeid": "12"
-            }
-        },
         {
             "geometry": {
                 "type": "Point",
@@ -199,7 +71,6 @@
                 "storeid": "13"
             }
         },
-		
 		{
             "geometry": {
                 "type": "Point",
@@ -236,26 +107,6 @@
                 "storeid": "16"
             }
         },
-		{
-            "geometry": {
-                "type": "Point",
-                "coordinates": [123.892509,
-                     10.315085
-                    
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "fast food",
-                "hours": "8am - 9:30pm",
-                "user_ratings_total": "15",
-                "name": "Baby Nicnic's Kan-Anan",
-                "specialty": "N/A",
-                "storeid": "17"
-            }
-        },
-		
-		
 		{
             "geometry": {
                 "type": "Point",
