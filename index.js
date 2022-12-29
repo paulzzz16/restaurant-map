@@ -182,7 +182,8 @@ const clickEvent = ((event) => {
   const position = event.feature.getGeometry().get();
   const content = `
 <h5>${name}</h5><p><b>Reviews: </b>${ratings}</p>
-<p><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p>
+<p><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p><br/>
+<p><b>Category:</b> ${category}</p>
 `;
   infoWindow.setContent(content);
   infoWindow.setPosition(position);
