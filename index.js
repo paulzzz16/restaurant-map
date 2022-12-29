@@ -184,7 +184,6 @@ const clickEvent = ((event) => {
 <h5>${name}</h5><p><b>Reviews: </b>${ratings}</p>
 <p><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p>
 `;
-  const infoWindow = new google.maps.InfoWindow();
   infoWindow.setContent(content);
   infoWindow.setPosition(position);
   infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
