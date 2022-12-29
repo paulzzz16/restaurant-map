@@ -192,4 +192,6 @@ function createMarker(location) {
 //     });
 }
   
+$("#filter-panel").click(function() {
+});
   window.initMap = initMap;
