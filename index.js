@@ -10,10 +10,10 @@ function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
       zoom: 15,
       center: cebu,
-      mapTypeControlOptions: {
-        style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-        position: google.maps.ControlPosition.TOP_RIGHT
-      },
+//       mapTypeControlOptions: {
+//         style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+//         position: google.maps.ControlPosition.TOP_RIGHT
+//       },
     });
     
     map.data.loadGeoJson('restaurants.json', {idPropertyName: 'storeid'});
