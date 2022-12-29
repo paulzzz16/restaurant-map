@@ -21,3 +21,7 @@
     padding-left: 3px;
     padding-right: 3px;
 }
+
+.btn-primary.active {
+    box-shadow: 2px 2px black;
+}
