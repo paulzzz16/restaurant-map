@@ -113,7 +113,38 @@ function initMap() {
     //show restaurant details when restaurant marker is clicked.
    
       // Show the information for a store when its marker is clicked.
-      cafeLayer.addListener('click', clickEvent);
+      cafeLayer.addListener('click', (event) => {
+  const category = event.feature.getProperty('category');
+  const name = event.feature.getProperty('name');
+  const ratings = event.feature.getProperty('user_ratings_total');
+  const hours = event.feature.getProperty('hours');
+  const specialty = event.feature.getProperty('specialty');
+  const position = event.feature.getGeometry().get();
+  const content = `
+<h5>${name}</h5><p><b>Reviews: </b>${ratings}</p>
+<p><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p>
+`;
+  const infoWindow = new google.maps.InfoWindow();
+  infoWindow.setContent(content);
+  infoWindow.setPosition(position);
+  infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
+  infoWindow.open(map);
+    
+    var currentLocationValue = document.getElementById('current-location').value;
+  if (currentLocationValue) {
+      
+      var request = {
+        origin: currentLocationValue,
+        destination: event.latLng,
+        travelMode: 'WALKING'
+      };
+      directionsService.route(request, function(result, status) {
+      if (status == 'OK') {
+        directionsRenderer.setDirections(result);
+      }
+      });
+  }
+});
   }
 
 function callNearbySearch(request) {
