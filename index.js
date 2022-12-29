@@ -171,7 +171,7 @@ function createMarker(location) {
 //     });
 }
 
-clickEvent = (event) => {
+clickEvent: ((event) => {
   const category = event.feature.getProperty('category');
   const name = event.feature.getProperty('name');
   const ratings = event.feature.getProperty('user_ratings_total');
@@ -202,6 +202,6 @@ clickEvent = (event) => {
       }
       });
   }
-};
+});
  
   window.initMap = initMap;
