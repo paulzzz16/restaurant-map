@@ -209,5 +209,7 @@ const clickEvent = ((event) => {
       });
   }
 });
- 
+ $('restaurant-button').on("click", function(event) {
+    console.log('restaurant click');
+ });
   window.initMap = initMap;
