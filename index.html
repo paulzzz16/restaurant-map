@@ -8,18 +8,11 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <div class="btn-group-toggle" data-toggle="buttons">
-  <label class="btn btn-secondary active">
-    <input type="checkbox" checked autocomplete="off"> Checked
-  </label>
-</div>
    <div id="filter-panel" width="100%" height="300px">
       <input id="current-location" type="text" placeholder="Please input location..."/>
-     <div class="btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-secondary active">
-          <input type="checkbox" checked autocomplete="off"> Checked
-        </label>
-      </div>
+     <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Single toggle
+</button>
     </div>
     <!--The div element for the map -->
     <div id="map">
