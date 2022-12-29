@@ -210,6 +210,12 @@ const clickEvent = ((event) => {
   }
 });
  $('#restaurant-button').on("click", function(event) {
-    console.log('restaurant click');
+    console.log(event);
+ });
+ $('#cafe-button').on("click", function(event) {
+    console.log(event);
+ });
+ $('#fast-food-button').on("click", function(event) {
+    console.log(event);
  });
   window.initMap = initMap;
