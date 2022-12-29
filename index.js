@@ -20,11 +20,6 @@ function initMap() {
       },
     });
     
-     // The marker, positioned at cebu
-     const marker = new google.maps.Marker({
-      position: cebu,
-      map: map,
-    });
     
     //initialize all layer geojson
     cafeLayer = new google.maps.Data();
