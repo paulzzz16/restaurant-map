@@ -121,7 +121,7 @@ function initMap() {
         const specialty = event.feature.getProperty('specialty');
         const position = event.feature.getGeometry().get();
         const content = `
-      <h2>${name}</h2><p><b>Reviews: </b>${ratings}</p>
+      <h5>${name}</h5><p><b>Reviews: </b>${ratings}</p>
       <p><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p>
     `;
 
