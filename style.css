@@ -5,7 +5,7 @@
   }
 
 #filter-panel {
-    position: fixed;
+    margin: 10px;
     width: 350px;
     height: 150px;
     z-index: 3;
