@@ -113,7 +113,7 @@ function initMap() {
     //show restaurant details when restaurant marker is clicked.
     const infoWindow = new google.maps.InfoWindow();
       // Show the information for a store when its marker is clicked.
-      map.data.addListener('click', (event) => {
+      cafeLayer.addListener('click', (event) => {
         const category = event.feature.getProperty('category');
         const name = event.feature.getProperty('name');
         const ratings = event.feature.getProperty('user_ratings_total');
