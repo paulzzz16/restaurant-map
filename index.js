@@ -29,9 +29,14 @@ function initMap() {
     //initialize all layer geojson
     cafeLayer = new google.maps.Data();
     fastFoodLayer = new google.maps.Data();
+    restaurantLayer = new google.maps.Data();
    // map.data.loadGeoJson('restaurants.json', {idPropertyName: 'storeid'});
-   cafeLayer.loadGeoJson('restaurants.json');
+   cafeLayer.loadGeoJson('cafe.json');
+    restaurantLayer.loadGeoJson('restaurants.json');
+    fastFoodLayer.loadGeoJson('fastfood.json');
     cafeLayer.setMap(map);
+    restaurantLayer.setMap(map);
+    fastFoodLayer.setMap(map);
    
     directionsService = new google.maps.DirectionsService();
     directionsRenderer = new google.maps.DirectionsRenderer();
@@ -111,11 +116,11 @@ function initMap() {
     map.fitBounds(bounds);
   });
     
-    //show restaurant details when restaurant marker is clicked.
-   
-      // Show the information for a store when its marker is clicked.
+    // Show the information for a store when its marker is clicked.
     infoWindow = new google.maps.InfoWindow()
-      cafeLayer.addListener('click', clickEvent);
+    cafeLayer.addListener('click', clickEvent);
+    restaurantLayer.addListener('click', clickEvent);
+    fastFoodLayer.addListener('click', clickEvent);
   }
 
 function callNearbySearch(request) {
