@@ -6,7 +6,7 @@ var directionsRenderer;
 var cafeLayer;
 var fastFoodLayer;
 var restaurantLayer;
-const infoWindow = new google.maps.InfoWindow();
+var infoWindow;
 function initMap() {
     // The location of Cebu
     const cebu = { lat: 10.3156992, lng: 123.88543660000005 };
@@ -114,6 +114,7 @@ function initMap() {
     //show restaurant details when restaurant marker is clicked.
    
       // Show the information for a store when its marker is clicked.
+    infoWindow = new google.maps.InfoWindow()
       cafeLayer.addListener('click', clickEvent);
   }
 
