@@ -11,6 +11,7 @@
     z-index: 3;
     border-radius: 25px;
     background-color: deepskyblue;
+    padding-top: 20px;
 }
 #current-location {
     margin: 10 0 10 0;
