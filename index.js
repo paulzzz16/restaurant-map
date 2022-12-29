@@ -181,9 +181,9 @@ const clickEvent = ((event) => {
   const specialty = event.feature.getProperty('specialty');
   const position = event.feature.getGeometry().get();
   const content = `
-<h5>${name}</h5><p><b>Reviews: </b>${ratings}</p>
-<p><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p><br/>
-<p><b>Category:</b> ${category}</p>
+<h5>${name}</h5>
+<p><b>Reviews: </b>${ratings}<br/><b>Open:</b> ${hours}<br/><b>Specialty:</b> ${specialty}</p><br/>
+<b>Category:</b> ${category}
 `;
   infoWindow.setContent(content);
   infoWindow.setPosition(position);
