@@ -10,10 +10,10 @@ function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
       zoom: 15,
       center: cebu,
-//       mapTypeControlOptions: {
-//         style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-//         position: google.maps.ControlPosition.TOP_RIGHT
-//       },
+      mapTypeControlOptions: {
+        style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+        position: google.maps.ControlPosition.TOP_RIGHT
+      },
     });
     
     map.data.loadGeoJson('restaurants.json', {idPropertyName: 'storeid'});
@@ -40,7 +40,7 @@ function initMap() {
      const input = document.getElementById("current-location");
   searchBox = new google.maps.places.SearchBox(input);
 
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+  map.controls[google.maps.ControlPosition.TOP_LEFT];
   // Bias the SearchBox results towards current map's viewport.
   map.addListener("bounds_changed", () => {
     searchBox.setBounds(map.getBounds());
