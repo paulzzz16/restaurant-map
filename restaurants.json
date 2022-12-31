@@ -71,24 +71,7 @@
                 "storeid": "13"
             }
         },
-		{
-            "geometry": {
-                "type": "Point",
-                "coordinates": [123.8906187,
-                    10.3131703
-                    
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "category": "fast food",
-                "hours": "8am - 9:30pm",
-                "user_ratings_total": "N/A",
-                "name": "Andy's Crunchicken",
-                "specialty": "Chicken",
-                "storeid": "15"
-            }
-        },
+	
 		{
             "geometry": {
                 "type": "Point",
