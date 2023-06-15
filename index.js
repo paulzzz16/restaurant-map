@@ -48,6 +48,7 @@ function initMap() {
 
 //searchbox events
   const input = document.getElementById("current-location");
+  input.value = 'Guadalupe, Cebu City, Cebu, Philippines';
   const filterPanel = document.getElementById("filter-panel");
   searchBox = new google.maps.places.SearchBox(input);
 
